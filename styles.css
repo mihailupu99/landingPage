@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&display=swap');
+* {
+	font-family: 'Genos', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.logo-image {
+	width: 66px;
+	height: 56px;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	position: fixed;
+	background-color: #adb5bd;
+}
+
+.navigation-links {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	list-style: none;
+	margin-left: auto;
+}
+
+.navigation-links a {
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 900;
+	padding: 15px;
+	color: #d90429;
+	display: block;
+}
+
+.navigation-links a:hover {
+	background-color: #6c757d;
+	cursor: pointer;
+}
+
+.head-part {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: -380px;
+	font-size: 2.5em;
+	color: #d90429;
+	font-weight: 900;
+}
+
+.foreground-image {
+	margin-top: 61px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 10px solid #4361ee;
+}
+
+.gundam-list {
+	margin-top: 237px;
+}
+.gundam-models {
+	border-top: 10px solid #d90429;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	gap: 200px;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	margin-top: 1px;
+	background-color: #adb5bd;
+}
+
+.gundam {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+	color: #4361ee;
+}
+
+.gundam-model {
+	width: 210px;
+	height: 300px;
+	border: 15px solid #d90429;
+	border-radius: 40px;
+}
+
+.favorite-quote {
+	display: flex;
+	flex-direction: column;
+	padding: 150px 75px;
+	background-color: #4361ee;
+	color: #023047;
+	font-size: 33px;
+	font-weight: 900;
+	font-style: italic;
+	border-top: 10px solid #d90429;
+	border-bottom: 10px solid #d90429;
+}
+
+.favorite-quote p {
+	text-align: end;
+	font-style: normal;
+	font-weight: 100;
+}
+
+.your-opinion {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #6c757d;
+	border-bottom: 10px solid #d90429;
+	padding: 25px;
+	gap: 20px;
+}
+
+.your-opinion h2 {
+	font-size: 43px;
+}
+
+.your-opinion p {
+	font-size: 20px;
+}
+
+.send {
+	transition-duration: 0.4s;
+	padding: 15px 32px;
+
+	color: #4361ee;
+	font-size: 16px;
+	border: none;
+}
+
+.send:hover {
+	background-color: #4361ee;
+	color: white;
+}
+
+footer {
+	background-color: #adb5bd;
+	text-align: center;
+	padding: 15px;
+}
